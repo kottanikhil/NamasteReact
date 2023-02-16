@@ -1,0 +1,29 @@
+// Basic Program of React
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+<body>
+    <div id="root"></div>
+    <!-- Below are the cdn links which help us get the objects of both react and ReactDOM -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script>
+        // I am creating a heading  elements with h1 tag and passing a value into it
+        const heading = React.createElement("h1",{},"Namsate Everyone");
+        
+        // I am storing the root value into a variable. We are just fetching the root variable that is created above
+        const root = ReactDOM.createRoot(document.getElementById("root"));
+
+        // rendering the heading inside root
+        root.render(heading);
+
+    </script>
+</body>
+</html>
+
+ <!-- In this above program we have basically creating a root for the program and using the react elements  -->

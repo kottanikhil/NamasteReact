@@ -1,0 +1,9 @@
+What is Emmet ? 
+Emmet is a built-in feature in Visual studio code which helps the user to write the HTML and CSS in an easier way and saving you a lot of time instead of manually typing the whole component.
+Emmet uses different abbreviations and short expressions depending on what’s passed, and then dynamically converts the abbreviations into the full code. Emmet is mostly used for HTML, XML, and CSS, but it can also be used with programming languages.
+The next question comes is How to do enable it ?
+https://blog.logrocket.com/type-html-faster-react-emmet-vs-code/#:~:text=Emmet%20in%20Visual%20Studio%20Code,-Emmet%20is%20a&text=Emmet%20uses%20different%20abbreviations%20and,be%20used%20with%20programming%20languages.
+CHEATSHEET FOR EMMET ?
+https://docs.emmet.io/cheat-sheet/
+
+Difference between a Library and Framework?
